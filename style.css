@@ -1,0 +1,161 @@
+body{
+    background-color: #0c0c0c;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.hero {
+  
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    background: #0c0c0c;
+}
+
+.logo {
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 100px;
+}
+
+/* nav {
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content:space-between ;
+
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+   color:rgb(49, 111, 211);
+}
+nav ul li a:hover{
+    color:rgb(241, 5, 5);
+} */
+.detail{
+    margin-left: 8%;
+    margin-top: 8%;
+}
+h1 span{
+    font-family: 'Dancing Script', cursive;
+}
+ p{
+    font-family: 'Dancing Script', cursive;
+}
+.detail h1{
+    font-size: 50px;
+    color: rgb(255, 253, 253);
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+span{
+    color: rgb(54, 97, 226);
+}
+.detail p{
+    color: #555;
+    line-height: 22px;
+}
+.detail a{
+    background: #3175f4;
+    padding: 10px 18px;
+    text-decoration: none ;
+    font-weight: bold;
+    color: rgb(19, 19, 19);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.detail a:hover{
+    transform: scale(1.01) translateY(-5px);
+    background: red;
+    border: 1px solid rgb(219, 5, 5);
+    
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom:30px;
+    right: 100px;
+
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .boy{
+    left: 45%;
+}
+
+ @media only screen and (min-width:300px) and (max-width:820px){ 
+      .hero {
+        height: 100%;
+        position: absolute;
+        width:100%;
+        background: #0c0c0c;
+    }   
+    .images{
+        width: 30%;
+        height: 45%;
+        position: absolute;
+        bottom: 40%;
+        right: 125px;
+    
+    }
+    .detail{
+        margin-left: 8%;
+        margin-top:425px;
+    }
+    .logo {
+        height: 100px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
+ @media only screen and (min-width:820px) and (max-width:1100px){
+    .hero {
+        height: 100%;
+        position: absolute;
+        width:100%;
+        background: #0c0c0c;
+    }   
+    .images{
+        width: 35%;
+        height: 50%;
+        position: absolute;
+        bottom: 35%;
+        right: 35%;
+    
+    }
+    .detail{
+        margin-left:8%;
+        margin-top:60%;
+    }
+    .logo {
+        height: 100px;
+        margin-left:5%;
+        margin-top: 3%;
+    }
+
+    
+}
